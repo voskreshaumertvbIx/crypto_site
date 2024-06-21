@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+*{
+  margin: 0;
+  color: var(--text_color);
+}
+.gradient-btn {
+  background: linear-gradient(67deg, #933FFE 0%, #18C8FF 100%);
+}
+
