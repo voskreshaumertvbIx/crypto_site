@@ -13,3 +13,13 @@ export interface SubmitButtonProps {
   className:string
   // onSubmit:(event: React.FormEvent<HTMLFormElement>) => void;
 }
+export interface LoginForm {
+  email: string;
+  password: string;
+}
+export interface RegisterForm{
+  email: string;
+  password: string;
+  confirmpassword:string;
+  btcaddress:string | number;
+}

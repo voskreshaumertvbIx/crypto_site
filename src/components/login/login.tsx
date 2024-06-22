@@ -3,11 +3,10 @@ import ReusableInput from "../../reusable_component/auth_input/auth_input";
 import AuthBackground from "../../reusable_component/auth_background/auth_background";
 import Logo from "../logo/logo";
 import SubmitButton from "../../reusable_component/button/submit_button";
+import { LoginForm } from "../../interfaces";
+import { ROUTES } from "../../Routes/routes";
 
-interface LoginForm {
-  email: string;
-  password: string;
-}
+
 
 const InitialState: LoginForm = {
   email: "",
@@ -69,7 +68,7 @@ const Login: FC = () => {
             ></label>
             <div className="text-descp_text_color text-font_small flex justify-between w-full mt-1 ">
               <div>Save Email and Password</div>
-              <div>Don’t have an account?</div>
+              <a href={ROUTES.register}>Don’t have an account?</a>
             </div>
             
           </div>
