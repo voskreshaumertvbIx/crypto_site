@@ -11,7 +11,7 @@ export interface ReusableInputProps {
 export interface SubmitButtonProps {
   text:string;
   className:string
-  // onSubmit:(event: React.FormEvent<HTMLFormElement>) => void;
+  onClick?: any ;
 }
 export interface LoginForm {
   email: string;

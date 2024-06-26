@@ -76,7 +76,7 @@ const Register = () => {
             onChange={handleChange}
           />
           <div className='mt-[50px]'>
-            <SubmitButton className='' text="Sign up" />
+            <SubmitButton onClick={()=>{}}className='' text="Sign up" />
           </div>
         </form>
       </div>

@@ -1,6 +1,11 @@
 import Login from "../components/login/login";
-
-export const ROUTES =  {
+export type RoutePath = {
+  
+  login: string;
+  register: string;
+};
+export const ROUTES: RoutePath =  {
+  
   login : '/login',
   register: '/register'
 }

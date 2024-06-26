@@ -5,6 +5,12 @@
   margin: 0;
   color: var(--text_color);
 }
+body {
+  width: 1440px;
+  margin: 0 auto; 
+  background-color:black
+}
+
 .gradient-btn {
   background: linear-gradient(67deg, #933FFE 0%, #18C8FF 100%);
 }

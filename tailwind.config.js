@@ -4,6 +4,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundColor: {
+        landing_background:'#07308f',
         auth_background: "#0B0B0F",
       },
       colors: {
@@ -16,10 +17,15 @@ module.exports = {
         font_header: "85px",
         font_subhead: "50px",
         font_section_header: "32px",
+        font_medium: '23px',
         font_large: "18px",
         font_main_text: "16px",
         font_small: "14px",
       },
+      fontWeight: {
+        semi_bold : '500',
+      },
+
     },
   },
   plugins: [],

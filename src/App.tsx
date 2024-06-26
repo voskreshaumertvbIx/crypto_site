@@ -1,11 +1,14 @@
-import './App.css';
-import AppRoutes from './Routes';
+import "./App.css";
+import Header from "./components/header/header";
+import "./index.css";
+import AppRoutes from "./Routes";
 
 
 function App() {
   return (
     <>
-      <AppRoutes/>
+    <Header/>
+    <AppRoutes/>
     </>
   );
 }
