@@ -6,6 +6,7 @@ module.exports = {
       backgroundColor: {
         landing_background:'#07308f',
         auth_background: "#0B0B0F",
+        black_gradient: 'linear-gradient(112.1deg, #202639 11.4%, #3F4C77 70.2%)',
       },
       colors: {
         input_background: "#16161E",
