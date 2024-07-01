@@ -3,9 +3,12 @@ export type RoutePath = {
   
   login: string;
   register: string;
+  mainpage:string;
 };
+
 export const ROUTES: RoutePath =  {
   
   login : '/login',
-  register: '/register'
+  register: '/register',
+  mainpage: '/'
 }

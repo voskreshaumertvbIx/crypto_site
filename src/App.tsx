@@ -1,27 +1,15 @@
 import "./App.css";
-import Cooperate from "./components/cooperate/cooperate";
-import Features from "./components/features/features";
+import Footer from "./components/footer/footer";
 import Header from "./components/header/header";
-import InviteTeam from "./components/invite_team/invite_team";
-import PortfolioTraking from "./components/portfolio_tracking/portfolio_traking";
-import UserCentricSteps from "./components/steps/steps";
-
-import SubMain from "./components/sub_main/sub_main";
 import "./index.css";
 import AppRoutes from "./Routes";
-
 
 function App() {
   return (
     <>
-    <Header/>
-     <SubMain/>
-    <Cooperate/>
-    <PortfolioTraking/>
-    <Features/>
-    <InviteTeam/>
-    <UserCentricSteps/>
-    <AppRoutes/> 
+      <Header />
+      <AppRoutes />
+      <Footer />
     </>
   );
 }
