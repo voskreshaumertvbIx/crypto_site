@@ -16,6 +16,7 @@ module.exports = {
       },
       fontSize: {
         font_header: "85px",
+        font_h1:'60px',
         font_subhead: "50px",
         font_section_header: "32px",
         font_medium: '23px',
