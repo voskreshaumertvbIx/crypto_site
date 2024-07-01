@@ -13,6 +13,7 @@ module.exports = {
         text_color: "white",
         descp_text_color: "#898CA9",
         link_text_color: "#B982FF",
+        customPink: '#FF00FF',
       },
       fontSize: {
         font_header: "85px",
