@@ -23,3 +23,16 @@ export interface RegisterForm{
   confirmpassword:string;
   btcaddress:string | number;
 }
+export interface CryptocurrenciesProps {
+  simplified:any;
+  
+}
+export interface Coin {
+  id: string;
+  name: string;
+  price: number;
+  marketCap: number;
+  change: number;
+  iconUrl: string;
+  rank: number;
+}
