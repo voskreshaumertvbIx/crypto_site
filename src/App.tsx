@@ -1,5 +1,6 @@
 import "./App.css";
 import CoinDisplay from "./components/coin_display/crypto_stats";
+import CryptoNews from "./components/crypto_news/crypto_news";
 
 import Footer from "./components/footer/footer";
 import Header from "./components/header/header";
@@ -13,7 +14,8 @@ function App() {
       {/* <Header />
       <AppRoutes />
       <Footer /> */}
-     <CryptoStats/>
+     {/* <CryptoStats/> */}
+     <CryptoNews/>
     </>
   );
 }

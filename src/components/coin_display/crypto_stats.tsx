@@ -34,7 +34,7 @@ const CoinDisplay = () => {
 
   return (
     <div className="text-text_color">
-      <h1>Global Crypto Stats</h1>
+      <h1 className='text-font_h1'>Global Crypto Stats</h1>
       <section>
         {crypto_stats.map((stat) => (
           <div key={stat.name}>
@@ -43,7 +43,7 @@ const CoinDisplay = () => {
           </div>
         ))}
       </section>
-      <Cryptocurrencies simplified={true}/>
+      
     </div>
   );
 };
