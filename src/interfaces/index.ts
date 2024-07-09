@@ -28,11 +28,16 @@ export interface CryptocurrenciesProps {
   
 }
 export interface Coin {
-  id: string;
+  uuid: string;
   name: string;
   price: number;
   marketCap: number;
   change: number;
   iconUrl: string;
   rank: number;
+}
+export interface Link {
+  type:string;
+  url:string;
+  name:string;
 }

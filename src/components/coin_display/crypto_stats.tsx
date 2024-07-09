@@ -27,7 +27,7 @@ const crypto_stats = [
 ];
 
 const CoinDisplay = () => {
-  const { data, isLoading } = useGetCryptosQuery(10);
+  const { data, isLoading } = useGetCryptosQuery("");
   const globalStats = data?.data?.stats;
 
   if (isLoading) return <div>Loading...</div>;
@@ -36,10 +36,10 @@ const CoinDisplay = () => {
     <div className="text-text_color">
       <h1 className='text-font_h1'>Global Crypto Stats</h1>
       <section>
-        {crypto_stats.map((stat) => (
-          <div key={stat.name}>
-            <span>{stat.name}: </span>
-            <span>{millify(globalStats?.[stat.value] || 0)}</span>
+        {crypto_stats.map((stats) => (
+          <div key={stats.name}>
+            <span>{stats.name}: </span>
+            <span>{millify(globalStats?.[stats.value] || 0)}</span>
           </div>
         ))}
       </section>

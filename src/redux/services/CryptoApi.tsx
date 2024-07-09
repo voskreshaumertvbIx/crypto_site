@@ -14,7 +14,10 @@ export const cryptoApi = createApi({
     getCryptos: build.query({
       query: () => createRequest("/coins")
     }),
+    getCryptoDetails: build.query({
+      query:(uuid)=>createRequest(`coin/${uuid}`)
+    })
   }),
 });
 
-export const { useGetCryptosQuery } = cryptoApi;
+export const { useGetCryptosQuery, useGetCryptoDetailsQuery } = cryptoApi;

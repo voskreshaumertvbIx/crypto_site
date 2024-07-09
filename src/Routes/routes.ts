@@ -1,14 +1,15 @@
-import Login from "../components/login/login";
 export type RoutePath = {
-  
   login: string;
   register: string;
-  mainpage:string;
+  mainpage: string;
+  cryptocurrencies: string;
+  cryptoDetails: string;
 };
 
 export const ROUTES: RoutePath =  {
-  
-  login : '/login',
+  login: '/login',
   register: '/register',
-  mainpage: '/'
-}
+  mainpage: '/',
+  cryptocurrencies: '/cryptocurrencies',
+  cryptoDetails: '/crypto/:uuid'
+};
