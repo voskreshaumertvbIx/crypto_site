@@ -1,6 +1,6 @@
 import { configureStore } from '@reduxjs/toolkit';
 import { cryptoApi } from './services/CryptoApi';
-import { buildGetDefaultMiddleware } from '@reduxjs/toolkit/dist/getDefaultMiddleware';
+
 import { newsApi } from './services/CryptoNewsApi';
 
 const store = configureStore({

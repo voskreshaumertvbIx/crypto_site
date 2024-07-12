@@ -41,3 +41,16 @@ export interface Link {
   url:string;
   name:string;
 }
+export interface LineChartProps {
+  coinHistory: CoinHistory;
+  currentPrice: string;
+  coinName: string;
+}
+interface CoinHistoryData {
+  history: any;
+  change: string;
+}
+
+interface CoinHistory {
+  data: CoinHistoryData;
+}
