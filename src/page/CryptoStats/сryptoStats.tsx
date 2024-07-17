@@ -6,7 +6,7 @@ const CryptoStats = () => {
   return (
     <div>
       <CoinDisplay/>
-      <Cryptocurrencies simplified={true}/>
+      <Cryptocurrencies />
     </div>
   );
 }

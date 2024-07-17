@@ -5,6 +5,7 @@ export interface ReusableInputProps {
   id:string;
   onChange: (e:React.ChangeEvent<HTMLInputElement>) => void;
   type?: string;
+  placeholder:string;
 
 
 }
@@ -23,10 +24,7 @@ export interface RegisterForm{
   confirmpassword:string;
   btcaddress:string | number;
 }
-export interface CryptocurrenciesProps {
-  simplified:any;
-  
-}
+
 export interface Coin {
   uuid: string;
   name: string;

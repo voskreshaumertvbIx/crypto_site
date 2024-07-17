@@ -4,6 +4,7 @@ export type RoutePath = {
   mainpage: string;
   cryptocurrencies: string;
   cryptoDetails: string;
+  news: string;
 };
 
 export const ROUTES: RoutePath =  {
@@ -11,5 +12,6 @@ export const ROUTES: RoutePath =  {
   register: '/register',
   mainpage: '/',
   cryptocurrencies: '/cryptocurrencies',
-  cryptoDetails: '/crypto/:uuid'
+  cryptoDetails: '/crypto/:uuid',
+  news:'news',
 };

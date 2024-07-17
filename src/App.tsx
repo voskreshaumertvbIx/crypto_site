@@ -11,7 +11,9 @@ import AppRoutes from "./Routes";
 function App() {
   return (
     <>
+    <Header/>
      <AppRoutes/>
+     <Footer/>
     </>
   );
 }

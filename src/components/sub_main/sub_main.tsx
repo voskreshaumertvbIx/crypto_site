@@ -8,7 +8,7 @@ const SubMain = () => {
         <p className='text-font_large text-descp_text_color w-[85%] mt-4'>
           Lorem ipsum dolor sit amet. Qui consequatur sint 33 volupta officia et sint laboriosam sed ipsa sint ut voluptatum labore et possimus voluptas.
         </p>
-        <button className='border border-white px-3 py-2 mt-6 text-text_color'>Explore Now</button>
+        <button className='border border-black px-3 py-2 mt-6 text-text_color'>Explore Now</button>
       </div>
       <div className='ml-[100px]'>
         <img src="./img/auth/phone.png" alt="Phone" className='mt-8'/>

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Line } from 'react-chartjs-2';
+import styles from './style.module.css'
 import { Col, Row, Typography } from 'antd';
 import {
   Chart as ChartJS,
@@ -68,14 +69,14 @@ const LineChart: React.FC<LineChartProps> = ({ coinHistory, currentPrice, coinNa
 
   return (
     <>
-      <Row className="chart-header">
+      <Row className={styles.chart_header}>
         <Title level={2} className="chart-title">{coinName} Price Chart</Title>
         <Col className="price-container">
           <Title level={5} className="price-change">Change: {coinHistory?.data?.change}%</Title>
           <Title level={5} className="current-price">Current {coinName} Price: $ {currentPrice}</Title>
         </Col>
       </Row>
-      <Line data={data} options={options} />
+      <Line className='p-[16px]' data={data} options={options} />
     </>
   );
 };
